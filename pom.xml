@@ -30,6 +30,7 @@
 		<module>provider8000</module>
 		<module>consumer8001</module>
 		<module>gateway8080</module>
+		<module>config8002</module>
 	</modules>
 
 </project>
