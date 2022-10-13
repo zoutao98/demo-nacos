@@ -29,6 +29,7 @@
 	<modules>
 		<module>provider8000</module>
 		<module>consumer8001</module>
+		<module>gateway8080</module>
 	</modules>
 
 </project>
