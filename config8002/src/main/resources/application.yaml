@@ -2,5 +2,4 @@ server:
   port: 8002
 spring:
   profiles:
-    active:
-    - dev
+    active: dev

@@ -13,7 +13,7 @@ public class Config8002Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(Config8002Application.class, args);
-		String userName = applicationContext.getEnvironment().getProperty("user.name");
+		String userName = applicationContext.getEnvironment().getProperty("spring.application.name");
         String userAge = applicationContext.getEnvironment().getProperty("user.age");
         System.err.println("user name :"+userName+"; age: "+userAge);
 	}
