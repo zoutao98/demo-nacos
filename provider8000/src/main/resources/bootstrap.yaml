@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: provider8000
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
